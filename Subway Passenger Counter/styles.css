@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: #00d2d9; */
+    background-image: url("sub.jpg");
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100vh;
+}
+
+.content-wrapper {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 1rem 2rem;
+    background-color:white(21, 21, 167);
+    border-radius: 2rem;
+}
+
+.content-wrapper h1 {
+    color: white;
+    font-size: 4rem;
+}
+
+.content-wrapper #passengers-count {
+    margin-bottom: 2rem;
+    padding: 1rem 2rem;
+    color: white;
+}
+
+.content-wrapper #Increment-btn {
+    margin-bottom: 2rem;
+    outline: none;
+    padding: 1rem 2rem;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+
+.content-wrapper #Save-btn {
+    margin-bottom: 2rem;
+
+    padding: 1rem 4rem;
+ 
+    background-color: aliceblue;
+    color: black;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+
+.content-wrapper p {
+    margin-bottom: 1rem;
+}
+
+.content-wrapper h3 {
+    border-radius: 1rem;
+    color: white;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.content-wrapper #reset-btn {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: 1rem 4rem;
+    background-color: khaki;
+    color: black;
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
